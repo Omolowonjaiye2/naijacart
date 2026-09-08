@@ -1,0 +1,1 @@
+export default function LoadingSkeleton({count=8}){return <div className="product-grid">{Array.from({length:count},(_,i)=><div className="skeleton-card" key={i}><div className="sk-img"/><div className="sk-line"/><div className="sk-line short"/><div className="sk-line"/></div>)}</div>}
